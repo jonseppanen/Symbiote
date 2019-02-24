@@ -19,7 +19,7 @@ var.SkinColorHighlight=222,79,44
 var.FontColor=255,255,255,255
 var.FontColorSubtle=150,50,50,255
 var.FontColorHilight=#var.SkinColorHighlight#
-var.FontColorGrey=100,100,100,100
+var.FontColorGrey=150,160,170,150
 
 var.FontFace=Metropolis
 var.FontSizeSmall=12

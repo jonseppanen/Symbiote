@@ -8,12 +8,13 @@
 DynamicVariables=1
 StringAlign=LeftTop
 StringCase=Upper
-FontFace=#var.FontFace#
 AntiAlias=1
 ClipString=2
 FontColor=#var.FontColor#
 StringEffect=Border
-StringEffectColor=0,0,0,255
+StringEffectColor=#var.SkinSolidColor#
+x=r
+y=R
 
 [style.Text.Small]
 FontSize=#var.FontSizeSmall#
