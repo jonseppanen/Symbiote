@@ -1,3 +1,11 @@
+;========================================================================
+;                        Actions file for Visor
+;========================================================================
+;   Here you can add generic share actions between your blocks and 
+;   widgets. Don't put meter specific stuff here, keep it generic 
+;   and dynamic.
+
+
 [action.Block.Hover]
 MouseOverAction=[!SetOption #CURRENTSECTION# SolidColor #var.SkinSolidColor#][!UpdateMeter #CURRENTSECTION#][!Redraw]
 MouseLeaveAction=[!SetOption #CURRENTSECTION# SolidColor #var.SkinTransparentColor#][!UpdateMeter #CURRENTSECTION#][!Redraw]

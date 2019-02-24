@@ -1,3 +1,9 @@
+;========================================================================
+;                      Global variables file
+;========================================================================
+;   All global variables here. They get imported into everything.
+
+
 [Variables]
 var.MediaApp=Spotify
 var.MediaPlayerColor=30,215,96,255

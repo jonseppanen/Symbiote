@@ -1,3 +1,10 @@
+;========================================================================
+;                 Shape Sheet for blocks and widgets
+;========================================================================
+;   Declare your shapes here for reuse everywhere. Try to use vars for 
+;   any colors so they can be changed.
+
+
 [shapePrevArrow]
 Shape=#var.Shape.Base#
 Shape2=Line 24,16,14,24 | Stroke Color #var.SkinElementColor#,255 | StrokeWidth 1.5

@@ -1,3 +1,10 @@
+;========================================================================
+;                      Block template for blocks
+;========================================================================
+;   This is the base template for all blocks. Import it to get all
+;   base/generic settings and tooling into your blocks.
+
+
 [Rainmeter]
 Update=10
 DefaultUpdateDivider=50

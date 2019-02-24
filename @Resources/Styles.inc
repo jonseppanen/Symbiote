@@ -1,3 +1,9 @@
+;========================================================================
+;                 Style Sheet for Blocks and Widgets
+;========================================================================
+;   Declare reusable generic styles here.
+
+
 [style.Text]
 DynamicVariables=1
 StringAlign=LeftTop

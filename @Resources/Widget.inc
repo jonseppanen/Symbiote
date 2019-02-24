@@ -1,3 +1,9 @@
+;========================================================================
+;                     Widget Template for Widgets
+;========================================================================
+;   All widgets use the below measures and meters on load.
+
+
 [Rainmeter]
 Update=100
 BackgroundMode=2
