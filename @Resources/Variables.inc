@@ -10,6 +10,7 @@ var.MediaPlayerColor=30,215,96,255
 
 var.BlockWidth=48
 var.BlockHeight=48
+var.NotifierHeight=1
 
 var.SkinTransparentColor=0,0,0,1
 var.SkinSolidColor=0,0,0,255

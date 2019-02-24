@@ -33,10 +33,10 @@ DynamicVariables=1
 Meter=Image
 ImageName=#@#\Images\shadow.png
 X=0
-Y=0
+Y=-32
 W=(#var.WidgetWidth# + (#var.WidgetShadowWidth# * 2))
 H=(#var.WidgetHeight# + #var.WidgetShadowBottom#)
-ScaleMargins=127,127,127,127
+ScaleMargins=63,63,63,63
 
 [MeterBackground]
 DynamicVariables=1
@@ -50,5 +50,5 @@ H=#var.WidgetHeight#
 [Variables]
 @IncludeVariables=#@#Variables.inc
 @IncludeStylesheet=#@#Styles.inc
-var.WidgetShadowBottom = 85
-var.WidgetShadowWidth = 75
+var.WidgetShadowWidth = 64
+var.WidgetShadowBottom = 96
