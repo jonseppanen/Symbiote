@@ -13,6 +13,7 @@ Substitute="0":"Play","1":"Pause","2":"Play","3":"Replay"
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=Progress
+AverageSize=4
 
 [MeasureRepeat]
 Measure=Plugin
