@@ -14,7 +14,7 @@ DynamicWindowSize=1
 UpdateDivider=-1
 Measure=calc
 DynamicVariables=1
-OnUpdateAction=[!ZPos -1]
+OnUpdateAction=[!ZPos -1][!ActivateConfig "#CURRENTCONFIG#\widget" "widget.ini"]
 
 [Variables]
 @IncludeVariables=#@#Variables.inc
