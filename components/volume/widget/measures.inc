@@ -86,3 +86,8 @@ Plugin=AudioLevel
 Parent=MeasureAudio
 Type=Band
 BandIdx=9
+
+[MeasureHeight]
+Measure=Calc
+Formula=MeasureSysVolume
+DynamicVariables=1
