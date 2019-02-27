@@ -10,12 +10,14 @@ var.MediaPlayerColor=30,215,96,255
 
 var.BlockWidth=48
 var.BlockHeight=48
-var.BorderWidth=8
+var.BorderWidth=12
 var.NotifierHeight=1
+var.StrokeWidth=1.5
 
 var.SkinTransparentColor=0,0,0,1
 var.SkinSolidColor=0,0,0,255
 var.SkinElementColor=255,255,255
+var.SkinElementHoverColor=222,79,44
 var.SkinColorHighlight=222,79,44
 
 var.FontColor=255,255,255,255
@@ -30,7 +32,7 @@ var.FontSizeLarge=24
 var.FontSizeHuge=30
 
 var.PaddingHText=24
-var.PaddingHTextSmall=(#var.PaddingHText# - (#var.FontSizeSmall# / 6))
+var.PaddingHTextSmall=(#var.PaddingHText# )
 var.PaddingHTextMedium=(#var.PaddingHText# - (#var.FontSizeMedium# / 6))
 var.PaddingHTextLarge=(#var.PaddingHText# - (#var.FontSizeLarge# / 6))
 var.PaddingHTextHuge=(#var.PaddingHText# - (#var.FontSizeHuge# / 6))

@@ -28,12 +28,19 @@ Measure=String
 String=''
 OnUpdateAction=[!Move "([MeasureShow] - (#CURRENTCONFIGWIDTH# / 2))" [MeasurePositionY] ]
 
+[MeterArrow]
+DynamicVariables=1
+Meter=Shape
+Shape=Rectangle 0,0,20,20 | Fill Color 0,0,0,255 | StrokeWidth 0 | Rotate 45
+X=(#CURRENTCONFIGWIDTH# / 2 - 10)
+Y=12
+
 [MeterShadow]
 DynamicVariables=1
 Meter=Image
 ImageName=#@#\Images\shadow.png
-X=0
-Y=-32
+X=(-(#CURRENTCONFIGWIDTH# / 2) + 12)r
+Y=8
 W=(#var.WidgetWidth# + (#var.WidgetShadowWidth# * 2))
 H=(#var.WidgetHeight# + #var.WidgetShadowBottom#)
 ScaleMargins=63,63,63,63
@@ -43,7 +50,7 @@ DynamicVariables=1
 Meter=Image
 SolidColor=#var.SkinSolidColor#
 X=#var.WidgetShadowWidth#
-Y=0
+Y=([MeterArrow:Y] + 10)
 W=#var.WidgetWidth#
 H=#var.WidgetHeight#
 

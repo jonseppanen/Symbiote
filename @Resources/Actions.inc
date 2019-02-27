@@ -7,8 +7,8 @@
 
 
 [action.Block.Hover]
-MouseOverAction=[!SetOption #CURRENTSECTION# SolidColor #var.SkinSolidColor#][!UpdateMeter #CURRENTSECTION#][!Redraw]
-MouseLeaveAction=[!SetOption #CURRENTSECTION# SolidColor #var.SkinTransparentColor#][!UpdateMeter #CURRENTSECTION#][!Redraw]
+MouseOverAction=[!SetOption #CURRENTSECTION# HoverColorState "Stroke Color #var.SkinElementHoverColor#,255 | Fill Color #var.SkinElementHoverColor#,255"][!UpdateMeter #CURRENTSECTION#][!Redraw]
+MouseLeaveAction=[!SetOption #CURRENTSECTION# HoverColorState "Stroke Color #var.SkinElementColor#,255 | Fill Color #var.SkinElementColor#,255"][!UpdateMeter #CURRENTSECTION#][!Redraw]
 
 [action.Widget.Open]
 MouseOverAction=[!SetOption MeasurePositionY String "(#CURRENTCONFIGY# + #CURRENTCONFIGHEIGHT#)" #CURRENTCONFIG#\widget][!UpdateMeasure "MeasurePositionY" #CURRENTCONFIG#\widget][!SetOption MeasureShow String "(#CURRENTCONFIGX# + (#CURRENTCONFIGWIDTH# / 2))" #CURRENTCONFIG#\widget][!UpdateMeasure "MeasureShow" #CURRENTCONFIG#\widget][!Show #CURRENTCONFIG#\widget][!Redraw]
