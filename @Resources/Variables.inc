@@ -10,6 +10,7 @@ var.MediaPlayerColor=30,215,96,255
 
 var.BlockWidth=48
 var.BlockHeight=48
+var.BorderWidth=8
 var.NotifierHeight=1
 
 var.SkinTransparentColor=0,0,0,1
@@ -35,8 +36,6 @@ var.PaddingHTextLarge=(#var.PaddingHText# - (#var.FontSizeLarge# / 6))
 var.PaddingHTextHuge=(#var.PaddingHText# - (#var.FontSizeHuge# / 6))
 
 var.PaddingVText=20
-
-var.BorderWidth=6
 
 var.Shape.Base=Rectangle 0,0,48,48 | Fill Color 0,0,0,1 | StrokeWidth 0
 

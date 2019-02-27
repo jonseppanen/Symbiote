@@ -10,6 +10,12 @@ Update=10
 DefaultUpdateDivider=50
 DynamicWindowSize=1
 
+[MeasureStart]
+UpdateDivider=-1
+Measure=calc
+DynamicVariables=1
+OnUpdateAction=[!ZPos -1]
+
 [Variables]
 @IncludeVariables=#@#Variables.inc
 @IncludeStylesheet=#@#Styles.inc
