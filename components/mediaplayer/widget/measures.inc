@@ -10,8 +10,9 @@ PlayerType=Status
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=Title
-UpdateDivider = 5
+UpdateDivider = 1
 Substitute="":"N/A"
+onChangeAction=[!Update][!Redraw]
 
 ;Example of how to get the artist of the current song, if GPMDP has no song selected or it is closed it will be a blank string.
 [MeasureArtist]

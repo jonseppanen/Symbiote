@@ -14,6 +14,7 @@ Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=Progress
 AverageSize=4
+UpdateDivider=1
 
 [MeasureRepeat]
 Measure=Plugin

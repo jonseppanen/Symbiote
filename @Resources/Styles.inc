@@ -6,6 +6,7 @@
 
 [style.Text]
 DynamicVariables=1
+FontFace=Raleway
 StringAlign=LeftTop
 StringCase=Upper
 AntiAlias=1
