@@ -4,6 +4,10 @@
 ;   Declare your shapes here for reuse everywhere. Try to use vars for 
 ;   any colors so they can be changed.
 
+[shapeSpacer]
+Shape=Rectangle 0,0,(#var.BlockWidth# / 4),#var.BlockHeight# | Fill Color 0,0,0,1 | StrokeWidth 0
+DynamicVariables=1
+X=R
 
 [shapePrevArrow]
 Shape=#var.Shape.Base#
