@@ -14,16 +14,19 @@ var.BorderWidth=12
 var.NotifierHeight=1
 var.StrokeWidth=1.5
 
-var.SkinTransparentColor=0,0,0,1
-var.SkinSolidColor=0,0,0,255
-var.SkinElementColor=255,255,255
-var.SkinElementHoverColor=222,79,44
-var.SkinColorHighlight=222,79,44
+var.ColorTransparent=0,0,0,1
+var.ColorBackground=0,0,0,255
+var.ColorMain=255,255,255,255
+var.ColorHover=222,79,44,255
+var.ColorNeutralDark=20,25,30,255
+var.ColorNeutralLight=150,160,170,150
+var.ColorAccentDark=150,50,50,255
+var.ColorAccentLight=222,79,44,255
 
-var.FontColor=255,255,255,255
-var.FontColorSubtle=150,50,50,255
-var.FontColorHilight=#var.SkinColorHighlight#
-var.FontColorGrey=150,160,170,150
+var.FontColor=#var.ColorMain#
+var.FontColorSubtle=#var.ColorAccentDark#
+var.FontColorHilight=#var.ColorAccentLight#
+var.FontColorGrey=#var.ColorNeutralLight#
 
 var.FontFace=Metropolis
 var.FontSizeSmall=12

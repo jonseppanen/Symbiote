@@ -12,7 +12,7 @@ AntiAlias=1
 ClipString=2
 FontColor=#var.FontColor#
 StringEffect=Border
-StringEffectColor=#var.SkinSolidColor#
+StringEffectColor=#var.ColorBackground#
 x=r
 y=R
 
@@ -33,6 +33,9 @@ Padding=#var.PaddingHTextSmall#,(#var.PaddingVText# + 5),#var.PaddingHTextSmall#
 [style.Text.Small.Padding.Bottom]
 Padding=#var.PaddingHTextSmall#,5,#var.PaddingHTextSmall#,#var.PaddingVText#
 
+[style.Text.Small.Padding.Sides]
+Padding=#var.PaddingHTextSmall#,5,#var.PaddingHTextSmall#,0
+
 [style.Text.Medium]
 FontSize=#var.FontSizeMedium#
 Padding=#var.PaddingHTextMedium#,(#var.PaddingVText# + 5),#var.PaddingHTextMedium#,#var.PaddingVText#
@@ -49,6 +52,9 @@ Padding=#var.PaddingHTextMedium#,(#var.PaddingVText# + 5),#var.PaddingHTextMediu
 
 [style.Text.Medium.Padding.Bottom]
 Padding=#var.PaddingHTextMedium#,5,#var.PaddingHTextMedium#,#var.PaddingVText#
+
+[style.Text.Medium.Padding.Sides]
+Padding=#var.PaddingHTextMedium#,5,#var.PaddingHTextMedium#,0
 
 [style.Text.Large]
 FontSize=#var.FontSizeLarge#
@@ -67,6 +73,9 @@ Padding=#var.PaddingHTextLarge#,(#var.PaddingVText# + 5),#var.PaddingHTextLarge#
 [style.Text.Large.Padding.Bottom]
 Padding=#var.PaddingHTextLarge#,5,#var.PaddingHTextLarge#,#var.PaddingVText#
 
+[style.Text.Large.Padding.Sides]
+Padding=#var.PaddingHTextLarge#,5,#var.PaddingHTextLarge#,0
+
 [style.Text.Huge]
 FontSize=#var.FontSizeHuge#
 Padding=#var.PaddingHTextHuge#,(#var.PaddingVText# + 5),#var.PaddingHTextHuge#,#var.PaddingVText#
@@ -83,3 +92,6 @@ Padding=#var.PaddingHTextHuge#,(#var.PaddingVText# + 5),#var.PaddingHTextHuge#,0
 
 [style.Text.Huge.Padding.Bottom]
 Padding=#var.PaddingHTextHuge#,5,#var.PaddingHTextHuge#,#var.PaddingVText#
+
+[style.Text.Huge.Padding.Sides]
+Padding=#var.PaddingHTextHuge#,5,#var.PaddingHTextHuge#,0

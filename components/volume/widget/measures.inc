@@ -15,7 +15,7 @@ Port=Output
 FFTSize=1024
 FFTAttack=15
 FFTDecay=250
-Bands=10
+Bands=9
 
 [MeasureBand0]
 Measure=Plugin
@@ -79,13 +79,6 @@ Plugin=AudioLevel
 Parent=MeasureAudio
 Type=Band
 BandIdx=8
-
-[MeasureBand9]
-Measure=Plugin
-Plugin=AudioLevel
-Parent=MeasureAudio
-Type=Band
-BandIdx=9
 
 [MeasureHeight]
 Measure=Calc

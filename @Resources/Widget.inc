@@ -31,7 +31,7 @@ OnUpdateAction=[!Move "([MeasureShow] - (#CURRENTCONFIGWIDTH# / 2))" [MeasurePos
 [MeterArrow]
 DynamicVariables=1
 Meter=Shape
-Shape=Rectangle 0,0,20,20 | Fill Color 0,0,0,255 | StrokeWidth 0 | Rotate 45
+Shape=Rectangle 0,0,20,20 | Fill Color #var.ColorBackground# | StrokeWidth 0 | Rotate 45
 X=(#CURRENTCONFIGWIDTH# / 2 - 10)
 Y=12
 
@@ -48,7 +48,7 @@ ScaleMargins=63,63,63,63
 [MeterBackground]
 DynamicVariables=1
 Meter=Image
-SolidColor=#var.SkinSolidColor#
+SolidColor=#var.ColorBackground#
 X=#var.WidgetShadowWidth#
 Y=([MeterArrow:Y] + 10)
 W=#var.WidgetWidth#
