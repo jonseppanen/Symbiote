@@ -16,6 +16,11 @@ PlayerType=Progress
 AverageSize=4
 UpdateDivider=1
 
+[MeasureUnProgress]
+Measure=calc
+Formula=(96 - MeasureProgress)
+UpdateDivider=1
+
 [MeasureRepeat]
 Measure=Plugin
 Plugin=WebNowPlaying
