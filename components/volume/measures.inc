@@ -55,7 +55,7 @@ Plugin=AudioLevel
 Port=Output
 FFTSize=1024
 FFTAttack=50
-FFTDecay=500
+FFTDecay=50
 Bands=3
 UpdateDivider=1
 

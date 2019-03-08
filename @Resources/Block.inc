@@ -35,3 +35,7 @@ IfAboveAction=[!ActivateConfig "#CURRENTCONFIG#\widget" "widget.ini"]
 @IncludeStylesheet=#@#Styles.inc
 @IncludeActions=#@#Actions.inc
 @IncludeShapes=#@#Shapes.inc
+
+[BlockSpacerStart]
+MeterStyle=shapeSpacer
+Meter=Shape

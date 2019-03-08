@@ -9,7 +9,8 @@ var.MediaApp=Spotify
 var.MediaPlayerColor=30,215,96,255
 
 var.BlockWidth=48
-var.BlockHeight=40
+var.BlockHeight=42
+var.ShapePaddingTop=((#var.BlockHeight# - 40) / 2)
 var.BorderWidth=12
 var.BorderRadius=0
 var.NotifierHeight=1
