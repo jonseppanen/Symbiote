@@ -44,3 +44,5 @@ var.PaddingHTextHuge=(#var.PaddingHText# - (#var.FontSizeHuge# / 6))
 var.PaddingVText=20
 
 var.Shape.Base=Rectangle 0,0,#var.BlockWidth#,#var.BlockHeight# | Fill Color 0,0,0,1 | StrokeWidth 0
+
+var.ArrowPosition=0

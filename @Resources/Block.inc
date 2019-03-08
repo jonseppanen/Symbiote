@@ -14,7 +14,21 @@ DynamicWindowSize=1
 UpdateDivider=-1
 Measure=calc
 DynamicVariables=1
-OnUpdateAction=[!ZPos 2][!ActivateConfig "#CURRENTCONFIG#\widget" "widget.ini"]
+OnUpdateAction=[!ZPos 2]
+
+[MeasureWidgetCheck]
+UpdateDivider=-1
+Measure=Plugin
+Plugin=FolderInfo
+Folder=#CURRENTPATH#widget
+
+[MeasureWidgetLoad]
+UpdateDivider=-1
+DynamicVariables=1
+Measure=Calc
+Formula=MeasureWidgetCheck
+IfAboveValue=0
+IfAboveAction=[!ActivateConfig "#CURRENTCONFIG#\widget" "widget.ini"]
 
 [Variables]
 @IncludeVariables=#@#Variables.inc
