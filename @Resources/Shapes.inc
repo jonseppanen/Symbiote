@@ -12,90 +12,54 @@ X=R
 
 [shapePrevArrow]
 Shape=#var.Shape.Base# 
-Shape2=Line 22,(13 + #var.ShapePaddingTop#),13,(20 + #var.ShapePaddingTop#) | Extend HoverColorState | StrokeWidth 1.5
-Shape3=Line 13,(20 + #var.ShapePaddingTop#),22,(27 + #var.ShapePaddingTop#) | Extend HoverColorState | StrokeWidth 1.5
-Shape4=Line 33,(12 + #var.ShapePaddingTop#),23,(20 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
-Shape5=Line 23,(20 + #var.ShapePaddingTop#),33,(28 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
-GlobalStrokeWidth=StrokeWidth 2
-HoverColorState=Stroke Color #var.ColorMain# | StrokeStartCap Round | StrokeEndCap Round
+Shape2=Line 24,(10 + #var.ShapePaddingTop#),14,(20 + #var.ShapePaddingTop#) | #var.ShapeStrokeSettings# | Extend HoverColorState
+Shape3=Line 14,(20 + #var.ShapePaddingTop#),24,(30 + #var.ShapePaddingTop#) | #var.ShapeStrokeSettings# | Extend HoverColorState
+Shape4=Line 34,(10 + #var.ShapePaddingTop#),24,(20 + #var.ShapePaddingTop#) | #var.ShapeStrokeSettings# | Extend HoverColorState
+Shape5=Line 24,(20 + #var.ShapePaddingTop#),34,(30 + #var.ShapePaddingTop#) | #var.ShapeStrokeSettings# | Extend HoverColorState
+HoverColorState=Stroke Color #var.ColorMain# 
 ;HoverSubColorState=Stroke Color #var.ColorNeutralLight# | StrokeStartCap Round | StrokeEndCap Round
 [shapeNextArrow]
-Shape=#var.Shape.Base#
-Shape2=Line 15,(12 + #var.ShapePaddingTop#),25,(20 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
-Shape3=Line 25,(20 + #var.ShapePaddingTop#),15,(28 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
-Shape4=Line 26,(13 + #var.ShapePaddingTop#),35,(20 + #var.ShapePaddingTop#) | Extend HoverColorState | StrokeWidth 1.5
-Shape5=Line 35,(20 + #var.ShapePaddingTop#),26,(27 + #var.ShapePaddingTop#) | Extend HoverColorState | StrokeWidth 1.5
-GlobalStrokeWidth=StrokeWidth 2
-HoverColorState=Stroke Color #var.ColorMain# | StrokeStartCap Round | StrokeEndCap Round
+Shape=#var.Shape.Base# 
+Shape2=Line 14,(10 + #var.ShapePaddingTop#),24,(20 + #var.ShapePaddingTop#) | #var.ShapeStrokeSettings# | Extend HoverColorState
+Shape3=Line 24,(20 + #var.ShapePaddingTop#),14,(30 + #var.ShapePaddingTop#) | #var.ShapeStrokeSettings# | Extend HoverColorState
+Shape4=Line 24,(10 + #var.ShapePaddingTop#),34,(20 + #var.ShapePaddingTop#) | #var.ShapeStrokeSettings# | Extend HoverColorState
+Shape5=Line 34,(20 + #var.ShapePaddingTop#),24,(30 + #var.ShapePaddingTop#) | #var.ShapeStrokeSettings# | Extend HoverColorState
+HoverColorState=Stroke Color #var.ColorMain# 
 ;HoverSubColorState=Stroke Color #var.ColorNeutralLight# | StrokeStartCap Round | StrokeEndCap Round
 
 [shapePlay]
 Shape=#var.Shape.Base#
-Shape2=Line 21,(14 + #var.ShapePaddingTop#),21,(26 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
-Shape3=Line 21,(14 + #var.ShapePaddingTop#),30,(20 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
-Shape4=Line 21,(26 + #var.ShapePaddingTop#),30,(20 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
-GlobalStrokeWidth=StrokeWidth 2 | StrokeStartCap Round | StrokeEndCap Round
+Shape2=Rectangle 21,(13 + #var.ShapePaddingTop#),1,14 | Extend HoverColorState | Strokewidth 0
+Shape3=Line 22,(14 + #var.ShapePaddingTop#),30,(20 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
+Shape4=Line 22,(26 + #var.ShapePaddingTop#),30,(20 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
+GlobalStrokeWidth=StrokeWidth #var.StrokeWidth#  | StrokeStartCap Round | StrokeEndCap Round
 HoverColorState=Stroke Color #var.ColorMain# | Fill Color #var.ColorMain#
 
 [shapeSpotify]
 Shape=#var.Shape.Base#
-Shape2=Curve 17,(16 + #var.ShapePaddingTop#),32,(18 + #var.ShapePaddingTop#),24,(13 + #var.ShapePaddingTop#) | Extend GlobalStrokeWidth | Stroke Color  #var.MediaPlayerColor#
-Shape3=Curve 17,(20 + #var.ShapePaddingTop#),31,(22 + #var.ShapePaddingTop#),23,(18 + #var.ShapePaddingTop#) | Extend GlobalStrokeWidth | Stroke Color  #var.MediaPlayerColor#
-Shape4=Curve 18,(24 + #var.ShapePaddingTop#),29,(26 + #var.ShapePaddingTop#),24,(23 + #var.ShapePaddingTop#) | Extend GlobalStrokeWidth | Stroke Color  #var.MediaPlayerColor#
-GlobalStrokeWidth=StrokeWidth 2 | StrokeStartCap Round | StrokeEndCap Round
+Shape2=Curve 17,(16 + #var.ShapePaddingTop#),32,(18 + #var.ShapePaddingTop#),24,(13 + #var.ShapePaddingTop#) | Extend GlobalStrokeWidth | Stroke Color  #var.MediaPlayerColor# | Scale 0.6
+Shape3=Curve 17,(20 + #var.ShapePaddingTop#),31,(22 + #var.ShapePaddingTop#),23,(18 + #var.ShapePaddingTop#) | Extend GlobalStrokeWidth | Stroke Color  #var.MediaPlayerColor# | Scale 0.6
+Shape4=Curve 18,(24 + #var.ShapePaddingTop#),29,(26 + #var.ShapePaddingTop#),24,(23 + #var.ShapePaddingTop#) | Extend GlobalStrokeWidth | Stroke Color  #var.MediaPlayerColor# | Scale 0.6
+GlobalStrokeWidth=StrokeWidth #var.StrokeWidth# 
 
 [shapePause]
 Shape=#var.Shape.Base#
-Shape2=Line 21,(13 + #var.ShapePaddingTop#),21,(27 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
-Shape3=Line 27,(13 + #var.ShapePaddingTop#),27,(27 + #var.ShapePaddingTop#) | Extend HoverColorState, GlobalStrokeWidth
-GlobalStrokeWidth=StrokeWidth 2 | StrokeStartCap Round | StrokeEndCap Round
+Shape2=Rectangle 21,(13 + #var.ShapePaddingTop#),1,14 | Extend HoverColorState | Strokewidth 0
+Shape3=Rectangle 27,(13 + #var.ShapePaddingTop#),1,14 | Extend HoverColorState | Strokewidth 0
+GlobalStrokeWidth=StrokeWidth #var.StrokeWidth#  | StrokeStartCap Round | StrokeEndCap Round
 HoverColorState=Stroke Color #var.ColorMain# | Fill Color #var.ColorMain# 
-
-
-
-;[shapeVolume]
-;Shape=#var.Shape.Base#
-;Shape2=Rectangle 13,16,1,10 | StrokeWidth 0 | Extend HoverColorState
-;Shape3=Rectangle 14,16,4,1 | StrokeWidth 0 | Extend HoverColorState
-;Shape4=Rectangle 14,25,4,1 | StrokeWidth 0 | Extend HoverColorState
-;Shape5=Rectangle 25,10,1,21 | StrokeWidth 0 | Extend HoverColorState
-;Shape6=Line 18,16,25,11 | Extend HoverColorState, GlobalStrokeWidth
-;Shape7=Line 18,26,25,30 | Extend HoverColorState, GlobalStrokeWidth
-;Shape8=Rectangle 28,14,(([MeasureSysVolumePerc] * [MeasureBand0]) * 20),1.4 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# | Rotate -20,0,0
-;Shape9=Rectangle 28,17,(([MeasureSysVolumePerc] * [MeasureBand1]) * 20),1.4 | StrokeWidth 0 | Fill Color#var.ColorNeutralLight# | Rotate -10,0,0
-;Shape10=Rectangle 28,20,(([MeasureSysVolumePerc] * [MeasureBand2]) * 20),1| StrokeWidth 0 | Fill Color #var.ColorNeutralLight# | Rotate 0,0,0
-;Shape11=Rectangle 28,23,(([MeasureSysVolumePerc] * [MeasureBand3]) * 20),1.4 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# | Rotate 10,0,0
-;Shape12=Rectangle 28,26,(([MeasureSysVolumePerc] * [MeasureBand4]) * 20),1.4 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# | Rotate 20,0,0
-;GlobalStrokeWidth=StrokeWidth #var.StrokeWidth#
-;HoverColorState=Stroke Color #var.ColorMain# | Fill Color #var.ColorMain#
-;HoverColorState2=Stroke Color #var.ColorMain# | Fill Color #var.ColorMain#
-;Vupath=25,10 | LineTo (25 + (5 * [MeasureBand0])),12 | LineTo (25 + (5 * [MeasureBand1])),16 | LineTo (25 + (5 * [MeasureBand2])),20 | LineTo (25 + (5 * [MeasureBand3])),24 | LineTo (25 + (5 * [MeasureBand4])),26 | LineTo 25,30 | ClosePath 0
-;Shape8=Rectangle 30,20,1,([MeasureSysVolumeBar1] + 1) | StrokeWidth 0 | Offset 0,(-([MeasureSysVolumeBar1] / 2)) | Extend HoverColorState
-;Shape9=Rectangle 33,20,1,([MeasureSysVolumeBar2] + 1)  | StrokeWidth 0 | Offset 0,(-([MeasureSysVolumeBar2] / 2)) | Extend HoverColorState
-;Shape10=Rectangle 36,20,1,([MeasureSysVolumeBar3] + 1)  | StrokeWidth 0 | Offset 0,(-([MeasureSysVolumeBar3] / 2)) | Extend HoverColorState
-;Vupath=25,10 | (3 * (1 - [MeasureBand0])),12 | (3 * (1 - [MeasureBand1])),16 | (3 * (1 - [MeasureBand02])),20 | | LineTo 25,30 | ClosePath 0
 
 [shapeSpeakers]
 Shape=#var.Shape.Base#
-Shape2=Ellipse 24,(20 + #var.ShapePaddingTop#),(2 + ([MeasureBand3] * 2)) | Extend HoverColorState, GlobalStrokeWidth 
-Shape3=Ellipse 24,(20 + #var.ShapePaddingTop#),(8 + ([MeasureBand2] * 2)) | Extend HoverColorState, GlobalStrokeWidth
-Shape4=Ellipse 24,(20 + #var.ShapePaddingTop#),(12 + ([MeasureBand1] * 1)) | Extend HoverSubColorState, GlobalStrokeWidth
-Shape5=Ellipse 11,(9 + #var.ShapePaddingTop#),1.5 | Extend HoverSubColorState | StrokeWidth 0
-Shape6=Ellipse 37,(9 + #var.ShapePaddingTop#),1.5 | Extend HoverSubColorState | StrokeWidth 0
-Shape7=Ellipse 11,(32 + #var.ShapePaddingTop#),1.5 | Extend HoverSubColorState | StrokeWidth 0
-Shape8=Ellipse 37,(32 + #var.ShapePaddingTop#),1.5 | Extend HoverSubColorState | StrokeWidth 0
-GlobalStrokeWidth=StrokeWidth 1.4 | Fill Color 0,0,0,0
+Shape2=Ellipse 24,(20 + #var.ShapePaddingTop#),(3 + ([MeasureBand2] * 2)) | Extend HoverSubColorState, GlobalStrokeWidth 
+Shape3=Ellipse 24,(20 + #var.ShapePaddingTop#),(10 + ([MeasureBand1] * 1)) | Extend HoverColorState, GlobalStrokeWidth
+Shape4=Ellipse 14,(10 + #var.ShapePaddingTop#),1.5 | Extend HoverSubColorState | StrokeWidth 0
+Shape5=Ellipse 34,(10 + #var.ShapePaddingTop#),1.5 | Extend HoverSubColorState | StrokeWidth 0
+Shape6=Ellipse 14,(30 + #var.ShapePaddingTop#),1.5 | Extend HoverSubColorState | StrokeWidth 0
+Shape7=Ellipse 34,(30 + #var.ShapePaddingTop#),1.5 | Extend HoverSubColorState | StrokeWidth 0
+GlobalStrokeWidth=StrokeWidth #var.StrokeWidth# | Fill Color 0,0,0,0
 HoverColorState=Stroke Color #var.ColorMain# | Fill Color #var.ColorMain#
 HoverSubColorState=Stroke Color #var.ColorNeutralLight# | Fill Color #var.ColorNeutralLight# 
-
-;Shape6=Rectangle 36,11,(([MeasureSysVolumePerc] * [MeasureBandR0]) * 20),1 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# 
-;Shape7=Rectangle 36,14,(([MeasureSysVolumePerc] * [MeasureBandR1]) * 20),1 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# 
-;Shape8=Rectangle 36,17,(([MeasureSysVolumePerc] * [MeasureBandR2]) * 20),1 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# 
-;Shape9=Rectangle 36,20,(([MeasureSysVolumePerc] * [MeasureBandR3]) * 20),1 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# 
-;Shape10=Rectangle 36,23,(([MeasureSysVolumePerc] * [MeasureBandR4]) * 20),1 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# 
-;Shape11=Rectangle 36,26,(([MeasureSysVolumePerc] * [MeasureBandR5]) * 20),1 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# 
-;Shape12=Rectangle 36,29,(([MeasureSysVolumePerc] * [MeasureBandR6]) * 20),1 | StrokeWidth 0 | Fill Color #var.ColorNeutralLight# 
-
 
 
 [shapeEthernet1]

@@ -18,7 +18,7 @@ RegisterAppBar(){
   Off :=  NumPut(  0, Off+0, "Int" ) 
   Off :=  NumPut(  0, Off+0, "Int" ) 
   Off :=  NumPut(  3440, Off+0, "Int" ) 
-  Off :=  NumPut(  42, Off+0, "Int" )
+  Off :=  NumPut(  40, Off+0, "Int" )
   Off :=  NumPut(   1, Off+0, "Ptr" )
   DllCall("Shell32.dll\SHAppBarMessage", UInt,(ABM_NEW:=0x0)     , Ptr,&APPBARDATA )
   DllCall("Shell32.dll\SHAppBarMessage", UInt,(ABM_QUERYPOS:=0x2), Ptr,&APPBARDATA )
